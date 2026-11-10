@@ -1,0 +1,24 @@
+{
+  "source": "https://www.hdextrusion.com/ppr-4-layer-co-extrusion-line.html",
+  "checked": "2026-10-28",
+  "extruders": {
+    "SJ65/33": 1,
+    "SJ45/30": 3
+  },
+  "pipe_size_source_values": [
+    21.7,
+    28.8,
+    34,
+    43,
+    49,
+    61
+  ],
+  "die_head_source_values": "21.7\u201361",
+  "total_power_kw": 132,
+  "notes": [
+    "Exact layer materials, sequence and thickness distribution are not supplied.",
+    "The source table does not explicitly state diameter units or nominal/outside diameter basis; confirm before tooling selection.",
+    "Unrelated PVC text and repeated PVC customer case excluded.",
+    "Hot transfer is retained as source terminology and needs equipment clarification."
+  ]
+}

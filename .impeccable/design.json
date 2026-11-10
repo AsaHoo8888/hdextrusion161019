@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T14:19:17.097007+00:00",
+  "title": "Design System: HD Extrusion",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "configuration-strip",
+        "value": "0 8px 28px #182b3a0b",
+        "purpose": "Ambient separation beneath the quick specification strip."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 12px 20px #182b3a0a",
+        "purpose": "Separate expanded mobile navigation from page content."
+      },
+      {
+        "name": "pipe-inner-ring",
+        "value": "inset 0 0 0 2px #fff",
+        "purpose": "Inner edge of illustrated pipe symbols."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": ".2s",
+        "purpose": "Button background and transform, field borders, and selection colors."
+      },
+      {
+        "name": "material-highlight",
+        "value": ".55s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Changed specification panel flashes from #f5dce3 to transparent."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1600px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "navigation",
+        "value": "980px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary inquiry and configuration action.",
+      "html": "<button class=\"ds-button\">Download inquiry brief</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:57px;padding:16px 24px;border:0;border-radius:var(--radius);background:var(--brand);color:#fff;font:700 14px/1.5 Manrope,Arial,sans-serif;transition:background .2s,transform .2s}.ds-button:hover{background:var(--brand-dark);transform:translateY(-1px)}.ds-button:active{transform:translateY(0)}.ds-button:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Compact Button",
+      "kind": "button",
+      "refersTo": "button-small",
+      "description": "Compact navigation action.",
+      "html": "<a class=\"ds-button ds-small\" href=\"#inquiry\">Prepare an inquiry ↗</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:30px;min-height:57px;padding:16px 24px;border:0;border-radius:var(--radius);background:var(--brand);color:#fff;font:700 14px/1.5 Manrope,Arial,sans-serif;transition:background .2s,transform .2s}.ds-button:hover{background:var(--brand-dark);transform:translateY(-1px)}.ds-button:active{transform:translateY(0)}.ds-button:focus-visible{outline:3px solid var(--brand);outline-offset:5px}.ds-small{min-height:46px;padding:12px 19px;font-size:13px;text-decoration:none}"
+    },
+    {
+      "name": "Specification Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labeled technical input.",
+      "html": "<label class=\"ds-label\">Pipe diameter<input class=\"ds-input\" type=\"number\" placeholder=\"e.g. 110\"></label>",
+      "css": ".ds-label{display:block;font:650 12px Manrope,Arial,sans-serif;letter-spacing:.005em;color:var(--ink)}.ds-input{display:block;margin-top:9px;min-height:48px;border:1px solid #c7d0d5;border-radius:var(--radius);padding:13px 14px;color:var(--ink);background:#fff;font:450 14px/1.5 Manrope,Arial,sans-serif;transition:border-color .2s}.ds-input:hover{border-color:#899ba5}.ds-input:focus{border-color:var(--brand)}.ds-input:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Quiet navigation with rose hover. Extrusion lines uses a native disclosure containing PVC, PE and PPR four-layer product links; Escape returns focus to its summary, outside click closes it, and mobile links close the main menu.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#solutions\">Extrusion lines</a><a href=\"#engineering\">Engineering</a></nav>",
+      "css": ".ds-nav{display:flex;gap:33px;align-items:center;font:650 13px Manrope,Arial,sans-serif;color:var(--ink)}.ds-nav a{color:inherit;text-decoration:none}.ds-nav a:hover{color:var(--brand)}.ds-nav a:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Material Choice",
+      "kind": "custom",
+      "refersTo": "material-option",
+      "description": "Pressed state identifies the chosen pipe material.",
+      "html": "<button class=\"ds-material\" aria-pressed=\"true\"><strong>HDPE</strong><small>Pipe extrusion lines</small></button>",
+      "css": ".ds-material{display:block;text-align:left;width:100%;min-height:116px;padding:24px;border:0;border-bottom:1px solid var(--line);background:var(--paper);color:var(--ink);font-family:Manrope,Arial,sans-serif;transition:background .2s,color .2s}.ds-material strong{display:block;font-size:25px;font-weight:750;letter-spacing:-.025em;line-height:1.2}.ds-material small{display:block;color:var(--muted);font-size:12px;margin-top:6px}.ds-material:hover{background:#faf2f4}.ds-material[aria-pressed=\"true\"]{background:#fbf0f3;color:var(--brand-dark)}.ds-material:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Inquiry Container",
+      "kind": "card",
+      "refersTo": "inquiry-container",
+      "description": "Flat white form surface on the inquiry section.",
+      "html": "<div class=\"ds-inquiry\">Prepare your specification.</div>",
+      "css": ".ds-inquiry{background:var(--paper);padding:30px;color:var(--ink);font:16px/1.65 Manrope,Arial,sans-serif}"
+    },
+    {
+      "name": "Video Frame",
+      "kind": "media",
+      "description": "16:9 contained media frame; source images remain uncropped and playback starts on request.",
+      "html": "<div class=\"ds-video-frame\"><span>Video preview</span><button>Play video</button></div>",
+      "css": ".ds-video-frame{aspect-ratio:16/9;background:var(--ink);color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}.ds-video-frame button{background:var(--brand);color:white;border:0;border-radius:var(--radius);padding:13px 20px;font:700 14px Manrope,Arial,sans-serif}.ds-video-frame button:hover{background:var(--brand-dark)}.ds-video-frame button:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Video Category Filter",
+      "kind": "button",
+      "description": "Pressed category control with an explicit video count.",
+      "html": "<button class=\"ds-video-filter\" aria-pressed=\"true\">HDPE pipe lines <span>3</span></button>",
+      "css": ".ds-video-filter{display:inline-flex;gap:13px;align-items:center;min-height:44px;padding:10px 14px;border:1px solid var(--line);border-radius:var(--radius);background:white;color:var(--ink);font:650 12px Manrope,Arial,sans-serif}.ds-video-filter[aria-pressed=\"true\"]{background:var(--brand);border-color:var(--brand);color:white}.ds-video-filter:hover{background:var(--brand-dark);color:white}.ds-video-filter:focus-visible{outline:3px solid var(--brand);outline-offset:5px}"
+    },
+    {
+      "name": "Product Specifications",
+      "kind": "table",
+      "description": "Left-aligned reference configuration rows with fine rules and contextual units.",
+      "html": "<table class=\"ds-product-spec\"><caption>Reference configuration</caption><tbody><tr><th scope=\"row\">Pipe diameter</th><td>Confirm for your project</td></tr></tbody></table>",
+      "css": ".ds-product-spec{width:100%;border-collapse:collapse;text-align:left;color:var(--ink);font:450 15px/1.85 Manrope,Arial,sans-serif}.ds-product-spec caption{text-align:left;padding-bottom:18px;color:var(--muted);font-size:13px}.ds-product-spec th,.ds-product-spec td{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 20px;vertical-align:top}.ds-product-spec th{font-weight:650;width:30%;padding-left:0}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Engineering Hall",
+    "overview": "A spacious industrial showroom with technical white and cool grey surfaces, navy typography, fine rules, and the confirmed rose brand accent. The system uses clear typographic hierarchy and open, ruled layouts to make technical information approachable.",
+    "keyCharacteristics": [
+      "Quiet surfaces and generous section spacing.",
+      "Manrope throughout, with compact technical labels.",
+      "Rose actions, visible keyboard focus, and precise separators."
+    ],
+    "rules": [
+      {
+        "name": "The Accent Rule",
+        "body": "Use rose to identify action and emphasis; retain white and grey as the dominant surfaces.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve the confirmed brand rose and locally hosted typeface.",
+      "Do retain keyboard focus and reduced-motion support."
+    ],
+    "donts": [
+      "Do not substitute blue reference accents for brand rose.",
+      "Do not turn technical information into nested elevated cards."
+    ]
+  }
+}

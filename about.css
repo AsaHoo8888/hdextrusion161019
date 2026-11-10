@@ -1,0 +1,56 @@
+.company-banner,
+.company-history-photo,
+.company-floor img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.company-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(32px, 6vw, 88px);
+  align-items: start;
+}
+.company-columns p,
+.service-terms dd,
+.company-timeline dd {
+  color: var(--muted);
+  line-height: 1.8;
+}
+.company-range {
+  margin: 28px 0;
+  border-top: 1px solid var(--line);
+}
+.company-range div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.company-range a { color: var(--brand-dark); text-decoration: underline; }
+.company-range dd { margin: 0; font-variant-numeric: tabular-nums; }
+.company-floor { margin: 0; align-self: center; }
+.company-floor figcaption,
+.company-events small { display: block; margin-top: 10px; font-size: 13px; color: var(--muted); }
+.company-film { margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--line); }
+.company-film iframe { display: block; width: 100%; aspect-ratio: 16/9; border: 0; background: var(--surface); }
+.company-film .text-link { margin-top: 12px; }
+.company-history-photo { margin-block: 32px; }
+.company-timeline dt { color: var(--brand-dark); }
+.company-service img { display: block; width: min(100%, 340px); height: auto; }
+.service-terms { margin: 0; }
+.service-terms div { padding: 22px 0; border-top: 1px solid var(--line); }
+.service-terms dt { font-size: 20px; font-weight: 650; }
+.service-terms dd { margin: 10px 0 0; }
+.company-events { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 32px; }
+.company-events figure { margin: 0; }
+.company-events figure > div { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.company-events img { display: block; width: 100%; height: auto; }
+.company-events h3 { margin: 4px 0 0; font-size: 21px; }
+@media (max-width: 760px) {
+  .company-banner { min-height: 100px; object-fit: cover; }
+  .company-columns, .company-events { grid-template-columns: 1fr; gap: 28px; }
+  .company-film { margin-top: 40px; padding-top: 32px; }
+  .about-close .button { margin-top: 18px; }
+}

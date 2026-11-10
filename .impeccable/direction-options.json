@@ -1,0 +1,207 @@
+{
+  "title": "hdextrusion.com · 首页视觉方向",
+  "question": "品牌色已更新为 #cb3a56。当前设计稿中的蓝色按钮与选中态将在实现时替换为此品牌色；机器涂装不代表品牌色。请选择构图方向，或输入调整意见。",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "工程展厅 · Engineering Hall",
+      "thesis": "把首页组织成可浏览的整线展厅，从产品选择直达规格询盘。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "technical white",
+        "industrial blue",
+        "precise ruled typography"
+      ],
+      "viewport": "大幅贯穿页面的管材产线示意图；上方英文产品标题，下方材料选择与询盘入口。",
+      "risk": "设备图需要后续替换为真实机器，避免示意图被误读为生产实证。",
+      "comp": ".impeccable/mocks/decision/assigned.png",
+      "kicker": "THE ROLL",
+      "raised": [
+        {
+          "from": "Arcade",
+          "raise": "材料选择和状态变化保持严格一致。"
+        },
+        {
+          "from": "Nixie",
+          "raise": "所有技术数字必须带单位与上下文。"
+        },
+        {
+          "from": "Alphabet",
+          "raise": "标题与真实管材产品共同承担视觉焦点。"
+        },
+        {
+          "from": "Accretion",
+          "raise": "以一条清晰视线路径引导规格询盘。"
+        },
+        {
+          "from": "Signboard",
+          "raise": "产品分类无需展开菜单即可扫描。"
+        },
+        {
+          "from": "Flyer",
+          "raise": "主次信息以明确尺度区分。"
+        }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "工程选型册 · Selection Catalogue",
+      "thesis": "像精密设备选型册一样，先读懂材料和范围，再提出需求。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "technical white",
+        "industrial blue",
+        "precise ruled typography"
+      ],
+      "viewport": "横向技术目录，HDPE/PPR/PVC 三个可选行，选中产品对应大幅设备图与规格入口。",
+      "risk": "选型册对工程买家熟悉，但也是工业网站较常见的表达。",
+      "comp": ".impeccable/mocks/decision/model-pick.png",
+      "kicker": "IMPECCABLE’S PICK"
+    },
+    {
+      "id": "crt",
+      "label": "Arcade",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "一致的交互状态"
+    },
+    {
+      "id": "nixie",
+      "label": "Nixie",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "带单位的数字纪律"
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "清晰的文字层级"
+    },
+    {
+      "id": "accretion",
+      "label": "Accretion",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "聚焦单一路径"
+    },
+    {
+      "id": "signboard",
+      "label": "Signboard",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "可扫描的分类"
+    },
+    {
+      "id": "flyer",
+      "label": "Flyer",
+      "verdict": "declined",
+      "thesis": "将该形式转换为设备目录后，工程采购识别与产品清晰度均弱于工程展厅。",
+      "palette": [
+        "#f4f5f3",
+        "#173a53",
+        "#cb3a56"
+      ],
+      "materials": [
+        "translated to existing industrial brand"
+      ],
+      "viewport": "保留材料选择与规格询盘的任务。",
+      "risk": "原形式会分散采购注意力。",
+      "case": "在受众认同与产品清晰度两项均不占优。",
+      "kept": "果断的信息层级"
+    }
+  ],
+  "canon": true,
+  "canonCard": {
+    "label": "常规工业官网",
+    "thesis": "标准工业官网结构，突出设备与询盘。",
+    "palette": [
+      "#f4f5f3",
+      "#173a53",
+      "#cb3a56"
+    ],
+    "materials": [
+      "technical white",
+      "industrial blue",
+      "precise ruled typography"
+    ],
+    "viewport": "左文右图首屏，下方产品卡片与完整询盘表单。",
+    "risk": "与同行的结构相近，辨识度有限。",
+    "comp": ".impeccable/mocks/decision/standard.png"
+  },
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "steer": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  }
+}

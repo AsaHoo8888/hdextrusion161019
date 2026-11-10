@@ -1,0 +1,48 @@
+.application-banner,
+.application-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.application-list {
+  padding-block: clamp(32px, 5vw, 76px);
+}
+.application-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(32px, 6vw, 90px);
+  padding-block: clamp(28px, 4vw, 56px);
+}
+.application-row + .application-row {
+  border-top: 1px solid var(--line);
+}
+.application-row p {
+  color: var(--muted);
+  line-height: 1.8;
+  max-width: 60ch;
+}
+.application-video {
+  border-top: 1px solid var(--line);
+  margin-top: 24px;
+}
+.application-video iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+.application-video a {
+  display: inline-block;
+  margin-block: 12px;
+  font-size: 13px;
+  color: var(--brand-dark);
+  text-decoration: underline;
+}
+@media (max-width: 760px) {
+  .application-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .applications .about-close .button { margin-top: 20px; }
+}

@@ -1,0 +1,25 @@
+{
+  "source": "https://www.hdextrusion.com/pe-pipe-extrusion-line.html",
+  "checked": "2026-10-20",
+  "excluded": "PVC material/application boilerplate and the repeated Vietnam PVC customer story were excluded.",
+  "configuration": {
+    "extruders": [
+      "SJ120/33",
+      "SJ90/38"
+    ],
+    "diameters_mm": [
+      400,
+      450,
+      500,
+      630,
+      710,
+      800
+    ],
+    "die_head_mm": "400\u2013800",
+    "total_power_kw": [
+      235,
+      310
+    ]
+  },
+  "scopeNote": "This source configuration is distinct from the overall HDPE family range of16\u20131600mm; model/power pairing, output and options require project confirmation."
+}

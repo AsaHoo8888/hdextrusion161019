@@ -1,0 +1,21 @@
+{
+  "source": "https://www.hdextrusion.com/pvc-pipe-extrusion-line.html",
+  "checked": "2026-10-20",
+  "excluded": "PC pellets and T5/T8/T10/T12 LED lamp tube introduction is inconsistent with PVC and excluded.",
+  "modelNote": "Source spells first model S]Z80/156, likely a transcription issue; display only 80/156 or 80/173 series with designation to be confirmed.",
+  "video": {
+    "title": "400 800 PVC pipe machine for water convey use",
+    "author_name": "HUADE EXTRUSION",
+    "author_url": "https://www.youtube.com/@Huade--Rice--9048",
+    "type": "video",
+    "height": 113,
+    "width": 200,
+    "version": "1.0",
+    "provider_name": "YouTube",
+    "provider_url": "https://www.youtube.com/",
+    "thumbnail_height": 360,
+    "thumbnail_width": 480,
+    "thumbnail_url": "https://i.ytimg.com/vi/jtDbaX0xYSI/hqdefault.jpg",
+    "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/jtDbaX0xYSI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"400 800 PVC pipe machine for water convey use\"></iframe>"
+  }
+}
